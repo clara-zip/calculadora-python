@@ -1,6 +1,3 @@
-#Titulo: calculadora.py
-#Função: realizar as quatro operações matemáticas básicas
-
 print ("Calculadora")
 
 num1 = int(input("Digite o primeiro número:"))
@@ -9,7 +6,6 @@ operador = input("Digite a opção desejada (1 para soma, 2 para subtração, 3 
 
 num2 = int(input("Digite o segundo número:"))
 
-#Determinado qual operador foi utilizado
 if operador == "1":
     operacao = num1 + num2
 elif operador == "2":
@@ -22,6 +18,7 @@ else:
     operacao = "Operador Inválido, Use: 1, 2, 3 ou 4."
 print ("Resultado:")
 print (operacao)
+
 
 
 
