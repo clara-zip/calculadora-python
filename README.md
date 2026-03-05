@@ -1,2 +1,2 @@
 # calculadora-python
-Calculadora feita com Python.
+calculadora feita com python.
